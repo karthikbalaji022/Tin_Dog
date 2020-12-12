@@ -1,0 +1,169 @@
+#title {
+  background-color: #ff4c86;
+  color: #fff;
+  padding-bottom: 90px;
+}
+
+body {
+  font-family: 'Montserrat-black', sans-serif;
+}
+h2{
+  font-family: 'Montserrat-Bold';
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+  padding:7px;
+}
+p{
+  color:#8f8f8f;
+}
+.meetDog {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.container {
+  padding: 3px 40px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-black', sans-serif;
+}
+
+.download-btn {
+  margin: 5px 3px 5px 0;
+}
+
+.iphone {
+  width: 50%;
+  transform: rotate(25deg);
+/*  margin: 0 0 30px 160px;*/
+position:absolute;
+right: 10px;
+bottom:-150%;
+}
+
+#features {
+  background-color: #fff;
+  padding: 150px 110px;
+position:relative;
+}
+
+.featurebox{
+  text-align: center;
+  padding:5%;
+  color:#8f8f8f;
+}
+
+.iconHover {
+  color: #ff4c86;
+}
+
+.iconHover:hover {
+  color: red;
+}
+
+#testimonials{
+  text-align: center;
+  background-color:#ef8172;
+  color:#fff;
+}
+
+.testimonial-image{
+  width:20%;
+  border-radius: 100%;
+  margin:15px;
+}
+
+#press
+{
+  background-color:#ef8172;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.press-logo
+{
+  width:160px;
+  margin:2%;
+  padding:0 16px 3px 36px;
+}
+
+.carousel-button{
+  padding:3% 7%;
+}
+
+#pricing{
+  padding :20px 40px;
+  text-align: center;
+
+}
+.card{
+  border:3px solid;
+}
+
+.sign-up-button{
+  text-align:center;
+  color:black;
+  height:50px;
+}
+
+@media (max-width:1199px){
+  .center-media{
+    text-align:center;
+  }
+  .iphone{
+    padding-top: 16px;
+    position:relative;
+    transform: rotate(0);
+
+    right:0;
+    bottom:0;
+  }
+}
+
+#cta{
+  background-color:#ff4c86;
+  color:#fff;
+  padding:120px;
+  text-align:center;
+
+}
+
+.cta-btn{
+  margin: 5px 3px 5px 3px;
+}
+
+#footer{
+  background-color:#fff;
+  text-align:center;
+  margin: 86px;
+}
+
+.fab-1{
+  padding: 6px;
+  font-size: 32px;
+  margin:12px 6px 12px 6px;
+  padding-bottom: 70px;
+
+}
